@@ -152,7 +152,7 @@
                 // FBX 모델 로더
                 const loader = new FBXLoader();
                 // 나중에 모델을 추가할 경로: assets/models/project1.fbx
-                loader.load('assets/models/project1.fbx', (object) => {
+                loader.load('assets/models/obj.fbx', (object) => {
                     object.scale.set(0.5, 0.5, 0.5); // 모델 크기에 맞춰 조절
                     scene.add(object);
                 }, 
